@@ -44,6 +44,7 @@ li {
 	transform: translateY(0px);
 	opacity: 1;
 }
+
 /* Button */
 .btn {
 	width: 150px;
@@ -878,7 +879,7 @@ li {
 
 @media screen and (max-width: 756px) {
 	body {
-		background: var(--color-background-light);
+		background: var(--color-background-light-light);
 	}
 	/* Hero */
 	.hero-content {
