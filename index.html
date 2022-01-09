@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <!-- preloader -->
+     <div id="preloader"></div>
+    <!-- Navbar Start -->
+    <section>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-content">
+                    <h1>ITest</h1>
+                </div>
+                <div class="navbar-content">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#price">Pricing</a></li>
+                        
+                        <li><i class="fas fa-adjust" id="dark-mode-toggle"></i></li>
+                        <li><button onclick="window.location.href='/loginRegister.html';">Sign In</button></li>
+
+                    </ul>
+                </div>
+                <button type="button" class="hamburger" id="menu-btn">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar End -->
+        <!-- mobile menu -->
+    
+        <div class="mobile-menu hidden" id="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>   
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#price">Pricing</a></li>
+                
+            </ul>
+            <div class="mobile-menu-bottom">
+                <button onclick="window.location.href='/loginRegister.html';">Sign In</button>
+            </div>
+        </div>
+
+    <!-- hero Start -->
+    <section>
+        <div class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-content-title">
+                        <h1>Complete Set of question <br><strong>Just for you.</strong></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat neque aliquid fuga
+                            quod dolorem, inventore aperiam nobis optio, minima voluptas ipsum vitae earum veniam? <br> Subscribe to our Newsletter </p>
+                    </div>
+                    <div class="hero-content-form">
+                        <form>
+                            <input type="email" name="email" placeholder="Your E-Mail Address">
+                            <button type="button" class="btn">Get Started</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <img src="headerimage.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero End -->
+
+    <!-- feature Start -->
+    <section>
+        <div class="feature">
+            <div class="feature-container reveal">
+                <h1>We Have Amazing <strong>Services.</strong></h1>
+                <p>Services that we provide are among the best in it's class.</p>
+                <div class="feature-content">
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-lock"></i>
+                        <h3>Secure</h3>
+                        <p>Our Services use cutting edge technology to make sure our user's data is safe and secure.</p>
+                    </div>
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-eye-slash"></i>
+                        <h3>Privacy</h3>
+                        <p>Privacy of our user's data has always been our priority.We will make sure your data is
+                            protected</p>
+                    </div>
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-phone"></i>
+                        <h3>Customer Services</h3>
+                        <p>Our staff are ready 24/7 to serve any questioning customer regarding our services.</p>
+                    </div>
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-upload"></i>
+                        <h3>Up to Date</h3>
+                        <p>We regularly update our website to improve our user's experience and add new features to keep
+                            the excitement going.</p>
+                    </div>
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-users"></i>
+                        <h3>Generosity</h3>
+                        <p>User with financial problems can team up with friend and make multiple account with just 1
+                            payment !</p>
+                    </div>
+                    <div class="feature-content-card reveal">
+                        <i class="fas fa-poll"></i>
+                        <h3>Reviews</h3>
+                        <p>We regularly make a poll on our community to ask their opinion about the website and do our
+                            best to improve it for them.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Feature End -->
+
+    <!-- content page start (3 part)-->
+    <section>
+        <div class="content" id="about">
+            <div class="content-container reveal">
+                <div class="content-content">
+                    <h1>Designed & Developed by Professionals.</h1>
+                    <p>Our Services are created by developers with years of experience and knowledge about developing.We
+                        guarantee you that our services would never failed you! As a user, your experience is our
+                        developers main priority! Feel free to drop a review about us.</p>
+                    <button class="btn" onclick="window.location.href='/loginRegister.html';">Learn More</button>
+                </div>
+                <div class="content-content">
+                    <img src="qualityimage.png" alt="">
+                </div>
+            </div>
+            <!-- step -->
+            <div class="content-container reveal">
+                <div class="content-content">
+                    <img src="PngItem_2319653.png" alt="">
+                </div>
+                <div class="content-content step">
+                    <h1>Get Started Now !</h1>
+                    <div class="content-step">
+                        <h1>01</h1>
+                        <div class="content-step-info">
+                            <h2>Register</h2>
+                            <p>Register your account by filling your username, Email Address and Password</p>
+                        </div>
+                    </div>
+                    <div class="content-step">
+                        <h1>02</h1>
+                        <div class="content-step-info">
+                            <h2>Setup your Account</h2>
+                            <p>Finish your online appearance by putting a profile picture,quick description of yourself
+                                and many more.Creativity is the only limit.</p>
+                        </div>
+                    </div>
+                    <div class="content-step">
+                        <h1>03</h1>
+                        <div class="content-step-info">
+                            <h2>Start Answering !</h2>
+                            <p>Congratulations! you are now one of us. Explore the community and various quiz all
+                                created just for you!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- principle -->
+            <div class="content-container reveal">
+
+                <div class="content-content-principle">
+                    <h1>Start Now !</h1>
+                    <p>Join 1000's of other student,teachers and school that are inside our program.Create new freinds,
+                        answer quiz you've never seen before and most importantly, enjoy our services ! we provide the
+                        best quiz platform and community available on the internet!</p>
+                    <div class="content-principle">
+                        <div class="content-principle-card">
+                            <h1>Affordability</h1>
+                            <div class="content-principle-info">
+                                <p>User can start now for free ! everyone is welcomed to our community.</p>
+                            </div>
+                        </div>
+                        <div class="content-principle-card">
+                            <h1>Safety</h1>
+                            <div class="content-principle-info">
+                                <p>Our users data is our priority,Don't worry about your data when you're with us.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-content">
+                    <img src="stepsimage.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contend end -->
+
+    <!-- pricing start-->
+
+    <section>
+        <div class="pricing" id="price">
+            <div class="pricing-container reveal">
+                <h1>Reasonable and Flexible Plans</h1>
+                <p>Our Selection of Plans suits every type of situation.Users can also upgrade their plan whenever they
+                    want and enjoy a 10% Upgrade Discount !</p>
+                <div class="pricing-container-content">
+                    <div class="pricing-content reveal">
+                        <h3>Plan</h3>
+                        <h1>FREE</h1>
+                        <h4>Yearly</h4>
+                        <div class="pricing-content-about">
+                            <h3>Benefits</h3>
+                            <h4>Limited Selection of Question</h4>
+                            <h4>12 Quiz Set / Day</h4>
+                            <h4>Limited Access to Public Library</h4>
+                            <h4>Access to Global Chat</h4>
+                        </div>
+                        <button onclick="window.location.href='/loginRegister.html';">Join Now</button>
+                    </div>
+                    <div class="pricing-content reveal">
+                        <h3>Plan</h3>
+                        <h1>$59.99</h1>
+                        <h4>Yearly</h4>
+                        <div class="pricing-content-about">
+                            <h3>Benefits</h3>
+                            <h4>Full Access to Question Library</h4>
+                            <h4>20 Quiz Set / Day</h4>
+                            <h4>Limited Access to Public Library</h4>
+                            <h4>Access to Global & VIP Chat</h4>
+                        </div>
+                        <button onclick="window.location.href='/loginRegister.html';">Buy Now</button>
+                    </div>
+                    <div class="pricing-content reveal">
+                        <h3>Plan</h3>
+                        <h1>$99.99</h1>
+                        <h4>Yearly</h4>
+                        <div class="pricing-content-about">
+                            <h3>Benefits</h3>
+                            <h4>Full Access to Question Library</h4>
+                            <h4>Unlimited Quiz Set / Day</h4>
+                            <h4>Full Access to Public Library</h4>
+                            <h4>Access to Global & VIP Chat</h4>
+                        </div>
+                        <button onclick="window.location.href='/loginRegister.html';">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- pricing end -->
+
+    <!-- Client Start -->
+    <section>
+        <div class="client" id="blog">
+            <div class="client-container">
+                <div class="client-content reveal">
+                    <img src="values.svg" alt="">
+                </div>
+                <div class="client-content reveal">
+                    <h5>value</h5>
+                    <h1>Our Client Love Us.</h1>
+                    <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, Lorem ipsum dolor sit
+                        amet consectetur adipisicing elit. Autem, veritatis.</h3>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <h2>Amazing User Experience</h2>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, laboriosam sed. Assumenda
+                        doloribus deserunt doloremque saepe architecto alias quod. Commodi esse aperiam dolorum fugiat
+                        possimus blanditiis dolor saepe id eaque consequuntur ratione quasi quo repellat temporibus,
+                        rem, tempora, ipsam inventore quia sint optio dicta. Maxime dolorum amet vel et eius?</h4>
+                    <div class="client-content-user">
+                        <div class="client-pic">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="client-data">
+                            <h1>Danial</h1>
+                            <h2>Director, Delos Inc.</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Client End -->
+
+    <!-- review start-->
+    <section>
+        <div class="review">
+            <div class="review-container reveal">
+                <h1>Student All over the world Love us !</h1>
+                <button class="review-button" onclick="window.location.href='/loginRegister.html';">Get Started</button>
+            </div>
+        </div>
+    </section>
+    <!-- review end -->
+<hr>
+    <!-- footer start -->
+    <section>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-content-ul">
+                    <ul>
+                        <h1>Service</h1>
+                        <li><a href="">How to Setup an account</a></li>
+                        <li><a href="">How to answer quiz</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                    <ul>
+                        <h1>FAQs</h1>
+                        <li><a href="">what we do</a></li>
+                        <li><a href="">Who are we</a></li>
+                        <li><a href="">When are we founded</a></li>
+                        <li><a href="">Why am i here</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Policy</h1>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Main</h1>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Follow us</h1>
+                        <li><a href="">Youtube</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h1>ITEST Inc.</h1>
+                    <p>&copy; 2021 ITEST Inc. All right Reserved</p>
+                    <div class="footer-content-social">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+    <script src="app.js"></script>
+</body>
+</html>

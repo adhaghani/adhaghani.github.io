@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="loginRegister.css">
+    <title>Document</title>
+</head>
+<body>  
+        <!-- preloader -->
+        <div id="preloader"></div>
+    <!-- Navbar Start -->
+    <section>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <div class="navbar-content">
+                    <h1>ITest</h1>
+                </div>
+                <div class="navbar-content">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/index.html#about">About</a></li>
+                        <li><a href="/index.html#blog">Blog</a></li>
+                        <li><a href="/index.html#price">Pricing</a></li>
+                        <li><i class="fas fa-adjust" id="dark-mode-toggle"></i></li>
+
+                    </ul>
+                </div>
+                <button type="button" class="hamburger" id="menu-btn">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar End -->
+        <!-- mobile menu -->
+    
+        <div class="mobile-menu hidden" id="menu">
+            <ul>
+                <li><a href="/index.html#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#price">Pricing</a></li>
+            </ul>
+        </div>
+
+            <!-- Form Start -->
+    <section>
+        <div class="form">
+            <div class="form-container">
+                <div class="form-content">
+                    <div class="form-content-side">
+                        <h1>Start Now!<br><strong>Join our Community!</strong></h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi placeat neque aliquid fuga
+                            quod dolorem, inventore aperiam nobis optio, minima voluptas ipsum vitae earum veniam? Lorem ipsum dolor sit amet. <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores at, nam doloribus aut sed voluptatem nobis quod et commodi dicta voluptatibus qui optio libero similique?</p>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <div class="form-content-form">
+                    <form action="login.php" method="post">
+                        <p>Log In</p>
+                        <input type="Username" placeholder="Username" id="username"><br>
+                        <input type="Password" placeholder="Password" id="password"><br>
+                        <input type="checkbox" name="" id="" onchange="myFunction()"><label for="">Show Password</label><br>
+                        <button>Log In</button>
+                        <hr>
+                        <button type="button" class="register">Register</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- register -->
+    <div class="popup">
+            <div class="form-container">
+                <div class="form-content">
+                    <div class="form-content-form">
+                    <form action="register.php" method="post">
+                        <i class="fas fa-times-circle"></i>
+                        <p>Log In</p>
+                        <input type="text" placeholder="Username" id="username"><br>
+                        <input type="email" placeholder="Email Address" id="email"><br>
+                        <input type="Password" placeholder="Password" id="password2"><br>
+                        <input type="checkbox" name="" id="" onchange="myFunction2()"><label for="">Show Password</label><br>
+                        <button type="submit">Register</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- Form End -->
+    <hr>
+    <!-- footer start -->
+    <section>
+        <div class="footer">
+            <div class="footer-container">
+                <div class="footer-content-ul">
+                    <ul>
+                        <h1>Service</h1>
+                        <li><a href="">How to Setup an account</a></li>
+                        <li><a href="">How to answer quiz</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                    <ul>
+                        <h1>FAQs</h1>
+                        <li><a href="">what we do</a></li>
+                        <li><a href="">Who are we</a></li>
+                        <li><a href="">When are we founded</a></li>
+                        <li><a href="">Why am i here</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Policy</h1>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Terms and Conditions</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Main</h1>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Support</a></li>
+                        <li><a href="">About Us</a></li>
+                    </ul>
+                    <ul>
+                        <h1>Follow us</h1>
+                        <li><a href="">Youtube</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                    </ul>
+                </div>
+                <div class="footer-content">
+                    <h1>ITEST Inc.</h1>
+                    <p>&copy; 2021 ITEST Inc. All right Reserved</p>
+                    <div class="footer-content-social">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer end -->
+    <script src="app.js"></script>
+</body>
+</html>
