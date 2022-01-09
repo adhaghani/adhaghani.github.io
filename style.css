@@ -427,7 +427,6 @@ li {
 
 .pricing {
 	background: var(--color-background-light-light);
-	padding: 50px 0px;
 }
 .pricing-container {
 	width: 1600px;
@@ -440,7 +439,7 @@ li {
 .pricing-container h1 {
 	font-size: 2rem;
 	text-align: center;
-	margin: 30px 0px;
+	margin: 0px 0px;
 	color: var(--color-primary-text-dark);
 }
 .pricing-container p {
